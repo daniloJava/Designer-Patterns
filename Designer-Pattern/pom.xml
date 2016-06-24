@@ -5,6 +5,14 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Designer-Pattern</name>
   <description>Teoria e aplicação dos Patterns</description>
+	<dependencies>
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>7.0</version>
+		</dependency>
+	</dependencies>
+ 
   <build>
     <sourceDirectory>src</sourceDirectory>
     <testSourceDirectory>Tests</testSourceDirectory>
