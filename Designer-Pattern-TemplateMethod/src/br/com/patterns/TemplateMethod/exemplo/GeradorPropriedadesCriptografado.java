@@ -24,6 +24,8 @@ public class GeradorPropriedadesCriptografado extends GeradorArquivo {
 	/**Processa de aplicando a criptografia cifra de César
 	 * simplismente em que o valor de cada byte é deslocado de acordo
 	 * com a variavel delay
+	 * @param bytes - Array dos bytes do arquivo gerado
+	 * @return Array dos Bytes
 	 */
 	protected byte[] processar(byte[] bytes) throws IOException {
 		byte[] newBytes = new byte[bytes.length];
@@ -34,7 +36,8 @@ public class GeradorPropriedadesCriptografado extends GeradorArquivo {
 	}
 
 	/**Gera o conteudo Criptografado
-	 * 
+	 * @param Map<String, Object> - todos os parametros e os conteudo necessarios.
+	 * @return String - toda string com o conteudo varrido
 	 */
 	protected String gerarConteudo(Map<String, Object> props) {
 		StringBuilder propFileBuilder = new StringBuilder();

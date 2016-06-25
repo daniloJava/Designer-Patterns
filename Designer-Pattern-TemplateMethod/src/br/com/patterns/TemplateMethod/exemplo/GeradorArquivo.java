@@ -14,9 +14,9 @@ public abstract class GeradorArquivo {
 	/**metodo base para criação de qualquer arquivo.
 	 * sendo Final para não conseguir sobrescrever pelas subClasses.
 	 * 
-	 * @param nome
-	 * @param propriedades
-	 * @throws IOException
+	 * @param nome - Nome do Arquivo
+	 * @param propriedades - Todas suas propriedades inseridas
+	 * @throws IOException - caso não conseguir escrever o arquivo.
 	 */
 	public final void gerarArquivo(String nome, Map<String, Object> propriedades)
 			throws IOException {
@@ -32,20 +32,20 @@ public abstract class GeradorArquivo {
 		
 	}
 
-	/**
+	/**Metodo pagrão caso não for sobreescrito por classes filhas
 	 * 
-	 * @param bytes
-	 * @return
+	 * @param bytes - os Bytes para rocessamento
+	 * @return - Array de Byte
 	 * @throws IOException
 	 */
 	protected byte[] processar(byte[] bytes) throws IOException {
 		return bytes;
 	}
 	
-	/**Metodo que precisa ser implementado.
+	/**Metodo que precisa ser implementado. para Gerar um conteudo dentro do Arquivo
 	 * 
-	 * @param propriedades 
-	 * @return
+	 * @param propriedades  - suas propriedades de conteudo
+	 * @return - String do conteudo preparado.
 	 */
 	protected abstract String gerarConteudo(Map<String, Object> propriedades);
 
