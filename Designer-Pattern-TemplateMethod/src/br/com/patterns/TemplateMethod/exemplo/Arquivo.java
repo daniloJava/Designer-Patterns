@@ -1,7 +1,6 @@
 package br.com.patterns.TemplateMethod.exemplo;
 
 /**Uma classe simples de um arquivo qualquer somente para teste.
- * 
  * @author Danilo Silva
  *
  */
