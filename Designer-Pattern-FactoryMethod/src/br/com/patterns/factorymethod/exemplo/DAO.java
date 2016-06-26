@@ -2,7 +2,7 @@ package br.com.patterns.factorymethod.exemplo;
 
 import java.util.List;
 
-/**Interface para Criar um Dao
+/**Interface para Criar um Dao Mais generica
  * 
  * @author Danilo Silva
  *
