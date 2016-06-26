@@ -10,5 +10,6 @@ para manutenções futuras.</p>
   <li>Strategy</li>
   <li>Null Object</li>
   <li>Temlate Method</li>
+  <li>Factory Method</li>
 </ul>
   
