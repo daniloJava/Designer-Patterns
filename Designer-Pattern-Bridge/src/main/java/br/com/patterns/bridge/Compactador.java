@@ -12,7 +12,8 @@ import java.util.zip.ZipOutputStream;
  *
  */
 public class Compactador implements PosProcessador {
-
+	
+	
 	public byte[] processar(byte[] bytes) {
 		ByteArrayOutputStream byteOut = new ByteArrayOutputStream();
 		ZipOutputStream out = new ZipOutputStream(byteOut);
