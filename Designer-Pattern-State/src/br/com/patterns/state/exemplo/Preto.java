@@ -15,5 +15,6 @@ public class Preto extends Cor {
 	 */
 	void assumiu(No no, List<No> list) {
 		list.add(no);
+		System.out.println(no.toString() + " Estado PRETO");
 	}
 }

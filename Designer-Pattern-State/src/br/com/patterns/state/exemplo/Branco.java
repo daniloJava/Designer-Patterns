@@ -14,6 +14,7 @@ public class Branco extends Cor {
 	 * 
 	 */
 	public void busca(No no, List<No> list) {
+		System.out.println(no.toString() + " Estado BRANCO");
 		no.setCor(new Cinza(), list);
 		
 	}

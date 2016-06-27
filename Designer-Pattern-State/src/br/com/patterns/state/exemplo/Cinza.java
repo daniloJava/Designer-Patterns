@@ -17,6 +17,9 @@ public class Cinza extends Cor {
 	void assumiu(No no, List<No> list) {
 		for (No adj : no.getAdjacentes())
 			adj.buscaProfundidade(list);
+		System.out.println(no.toString() + " Estado CINZA");
 		no.setCor(new Preto(), list);
 	}
+	
+	
 }
