@@ -11,5 +11,8 @@ para manutenções futuras.</p>
   <li>Null Object</li>
   <li>Temlate Method</li>
   <li>Factory Method</li>
+  <li>State</li>
+  <li>Bridge</li>
+  <li>Observer</li>
 </ul>
   
